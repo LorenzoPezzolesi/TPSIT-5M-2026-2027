@@ -1,17 +1,10 @@
-//1)In un tag h1 modificare tutti gli attributi
-const titolo = document.querySelector("h1");
+//Es 1
+// Prendo il tag h1 che già esiste nella pagina
+const titolo = document.getElementById("titolo");
 
-
-
-//2)Con id cambiare il colore
-
-
-
-
-//3)In un elenco: con una classe cambiare dimensione del font
-
-
-
-
-
-//4)In elenco con (query selector) tutti gli elementi siano visualizzati in grassetto
+// Ciclo da 2 a 6 per creare h2, h3, h4, h5, h6
+for (let livello = 2; livello <= 6; livello++) {
+    const nuovoTag = document.createElement("h" + livello); // crea <h2>, <h3>, ecc.
+    nuovoTag.textContent = "Titolo h" + livello; // gli mette un testo dentro
+    document.body.appendChild(nuovoTag); // lo aggiunge alla pagina
+}
