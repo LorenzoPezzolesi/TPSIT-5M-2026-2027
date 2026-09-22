@@ -1,0 +1,19 @@
+// LET — variabile modificabile (usa questa nella maggior parte dei casi)
+let nome = "Marco";
+let eta = 17;
+nome = "Luca";   // OK, si può cambiare
+console.log(nome); // "Luca"
+
+// CONST — costante: il valore NON può cambiare
+const PI = 3.14159;
+// PI = 3;  ← ERRORE! Le const non si riassegnano
+
+// VAR — il vecchio modo (prima di ES6, 2015)
+// Evitalo: ha comportamenti strani con lo "scope"
+var x = 10;  // non usare, usa let
+
+In JS il tipo della variabile cambia con il valore, questo è comodo ma pericoloso. 
+Usa console.log(typeof variabile) per controllare il tipo in qualsiasi momento. 
+
+La parola chiave let è quella che userai il 95% delle volte; const quando sai che il valore non cambierà mai.
+
