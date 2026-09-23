@@ -1,0 +1,23 @@
+Esercizi semplici
+1. Il Cambia-Testo
+HTML di partenza: Un semplice paragrafo (<p>) con scritto "Ciao".
+Cosa fare in JavaScript: Usa un pop-up (prompt) per chiedere all'utente il suo nome e cambia il testo del paragrafo in "Ciao, [Nome inserito]".
+
+2. Il Pulsante Magico
+HTML di partenza: Un link (<a>) con scritto "Sito Web" e un indirizzo qualsiasi.
+Cosa fare in JavaScript: Cambia la parola dentro al link facendola diventare "Clicca qui per entrare".
+
+3. La Lista della Spesa
+HTML di partenza: Una lista con 3 elementi fissi (es. Pane, Latte, Uova).
+Cosa fare in JavaScript: Seleziona il secondo elemento (Latte) e sostituisci il testo con “Cioccolato”.
+
+Esercizio A: L'aggiungi-link dinamico
+Crea un elenco puntato vuoto (<ul>) nel tuo HTML.
+Usa due prompt in JavaScript: uno per chiedere all'utente il nome di un sito web e uno per chiedere l' URL (es. https://...).
+Crea dinamicamente un nuovo elemento elenco (<li>) che contiene un link con il nome e l'indirizzo inseriti, e aggiungilo alla lista.
+
+Esercizio B: Il contatore di click
+Crea un singolo link con scritto "Cliccami", che non porti a nessuna pagina (puoi usare href="#").
+Aggiungi sotto al link un paragrafo con scritto: "Hai cliccato 0 volte".
+Intercetta il click sul link con JavaScript (usando addEventListener) e fai aumentare il contatore ogni volta 
+che l'utente ci clicca sopra, aggiornando il testo del paragrafo.
