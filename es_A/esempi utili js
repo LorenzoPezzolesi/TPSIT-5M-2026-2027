@@ -1,0 +1,2 @@
+let input1 = document.getElementById("input1")
+let numero = parseInt(input1.value) //int python
